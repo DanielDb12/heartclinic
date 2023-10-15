@@ -14,7 +14,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <body>
 
         <!-------------------------------- HEADER ----------------------------->
-        <header class="header">
+        <header id="home" class="header">
             <!-- NAVBAR -->
             <div class="menu container">
                 <a href="#" class="logo" ></a>
@@ -25,10 +25,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 </label>
                 <nav class="navbar">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
 
                 </nav>
@@ -61,7 +61,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         </header>
 
         <!-------------------------- ABOUT ----------------------------------->
-        <section class="about container"> 
+        <section id="about" class="about container"> 
 
             <div class="about-img">
                 <img  src="./assets/about.png" alt="alt"/>
@@ -93,7 +93,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
         </section>
         <!----------------------------------- MAIN ---------------------------->
-        <main class="services">
+        <main id="services" class="services">
 
             <h2>Services</h2>
             <div class="services-content container">
@@ -123,7 +123,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         </main>
 
         <!<!------------------------------- FORM ------------------------------->
-        <section class="form container">
+        <section id="contact" class="form container">
             <form method="post" autocomplete="off">
 
                 <h2>Agenga consulta</h2>
@@ -172,10 +172,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
                 <div class="link">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
 
                 </div>
